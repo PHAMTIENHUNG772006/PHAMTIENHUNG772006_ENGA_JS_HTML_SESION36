@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #main {
+        margin: 100px;
+        width: 500px;
+        height: auto;
+        padding: 24px;
+        border-radius: 15px;
+        text-align: center;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+      }
+      .btn {
+        padding: 10px;
+        width: 60px;
+        border-radius: 5px;
+        border: none;
+        margin-left: 20px;
+        color: #d3a4a4;
+      }
+      .content {
+        display: flex;
+        gap: 24px;
+        padding: 20px;
+      }
+
+      .red {
+        background-color: red;
+      }
+      .green {
+        background-color: green;
+      }
+      .yellow {
+        background-color: yellow;
+      }
+      .puper {
+        background-color: purple;
+      }
+      p {
+        color: gray;
+      }
+      .green:hover {
+        background-color: rgb(2, 109, 2);
+      }
+      .red:hover {
+        background-color: rgb(180, 6, 6);
+      }
+      .puper:hover {
+        background-color: rgb(97, 1, 97);
+      }
+      .yellow:hover {
+        background-color: rgb(196, 196, 2);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="main">
+        <h2>Chọn màu bạn Yêu thích</h2>
+        <div class="content">
+          <div id="btn" class="btn green">Xanh</div>
+          <div id="btn" class="btn yellow">Vàng</div>
+          <div id="btn" class="btn puper">Tím</div>
+          <div id="btn" class="btn red">Đỏ</div>
+        </div>
+        <p>Trang sẽ ghi nhớ lại màu bạn đã chọn kẻ cả khi tải lại trang!</p>
+      </div>
+    </div>
+    <script src="./luyen3.js"></script>
+  </body>
+</html>
